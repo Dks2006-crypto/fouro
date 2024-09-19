@@ -1,7 +1,7 @@
 :root {
   --color-white: #fff;
   --color-black: #000;
-  --content-width: 1200px;
+  --content-width: 1440px;
   --container-padding: 15px;
   --container-width: calc(var(--content-width) + (var(--container-padding) * 2));
   --font-size: 16px;
@@ -55,8 +55,39 @@
   margin: 0 auto;
   width: 100%;
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .container {
     background-color: red;
   }
+}
+
+.header {
+  width: 100%;
+  margin-top: 30px;
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__phone {
+  display: flex;
+  align-items: center;
+}
+.header__phone-number {
+  margin-right: 40px;
+}
+.header__lang-it {
+  margin-right: 15px;
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+}
+.nav__item {
+  padding: 0 20px;
+}
+.nav__item-link {
+  color: white;
 }/*# sourceMappingURL=main-style.min.css.map */

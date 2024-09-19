@@ -1,0 +1,10 @@
+.nav{
+    display: flex;
+    list-style: none;
+    &__item{
+        padding: 0 20px;
+        &-link{
+            color: white;
+        }
+    }
+}

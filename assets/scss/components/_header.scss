@@ -1,1 +1,21 @@
-// header style
+.header{
+    width: 100%;
+    margin-top: 30px;
+    &__container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__phone{
+        display: flex;
+        align-items: center;
+        &-number{
+            margin-right: 40px;
+        }
+    }
+    &__lang{
+        &-it{
+            margin-right: 15px;
+        }
+    }
+}
