@@ -1,0 +1,36 @@
+.welcome{
+    width: 100%;
+    padding-top: 165px;
+    background: url(/assets/image/Group.png) no-repeat center center;
+    height: 1200px;
+    position: relative;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__image{
+        width: 450px;
+        height: 430px;
+    }
+    &__desc{
+        &-title{
+            font-size: 140px;
+            font-weight: 600;
+            line-height: 170px;
+        }
+        &-active{
+            color: red;
+            font-size: 95px;
+        }
+        &-text{
+            font-size: 30px;
+            font-weight: 400;
+            max-width: 610px;
+        }
+    }
+    &__scroll{
+        position: absolute;
+        top: 165px;
+        left: 105px;
+    }
+}

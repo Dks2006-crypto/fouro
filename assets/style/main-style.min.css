@@ -90,4 +90,39 @@
 }
 .nav__item-link {
   color: white;
+}
+
+.welcome {
+  width: 100%;
+  padding-top: 165px;
+  background: url(/assets/image/Group.png) no-repeat center center;
+  height: 1200px;
+  position: relative;
+}
+.welcome__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.welcome__image {
+  width: 450px;
+  height: 430px;
+}
+.welcome__desc-title {
+  font-size: 140px;
+  font-weight: 600;
+  line-height: 170px;
+}
+.welcome__desc-active {
+  color: red;
+  font-size: 95px;
+}
+.welcome__desc-text {
+  font-size: 30px;
+  font-weight: 400;
+  max-width: 610px;
+}
+.welcome__scroll {
+  position: absolute;
+  top: 165px;
+  left: 105px;
 }/*# sourceMappingURL=main-style.min.css.map */
