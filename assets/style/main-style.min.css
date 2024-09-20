@@ -40,7 +40,7 @@
 }
 .application {
   width: 100%;
-  background-color: var(--color-black);
+  background-color: #2b2a2a;
   color: var(--color-white);
   font-family: var(--font-family);
   font-weight: 400;
@@ -384,4 +384,60 @@
   background-color: red;
   border-radius: 30px;
   display: inline-block;
+}
+
+.customer {
+  width: 100%;
+  margin-top: 550px;
+  position: relative;
+}
+.customer__title {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 72.5px;
+}
+.customer__card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-bottom: 100px;
+}
+.customer__scroll {
+  position: absolute;
+  top: 0;
+  left: 125px;
+}
+
+.reviews {
+  width: 100%;
+  margin-top: 550px;
+}
+.reviews__title {
+  font-family: Montserrat;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 72.5px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+.reviews__desc {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.reviews__desc-card {
+  padding: 35px 45px;
+  display: flex;
+  flex-direction: column;
+  background-color: #E0E1E3;
+  border-radius: 30px;
+  color: black;
+}
+.reviews__video {
+  padding-top: 45px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.reviews__video-img {
+  width: 460px;
 }/*# sourceMappingURL=main-style.min.css.map */
