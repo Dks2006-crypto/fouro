@@ -511,4 +511,53 @@
   background-image: url(/assets/image/Group\ 23.png);
   background-repeat: no-repeat;
   background-position: 7px center;
+}
+
+.footer {
+  width: 100%;
+  padding-top: 150px;
+}
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.footer__services-title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.94px;
+}
+.footer__services-list {
+  list-style: none;
+  padding: 0;
+}
+.footer__services-list-item {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.5px;
+}
+.footer__analysis-list {
+  list-style: none;
+  padding: 0;
+}
+.footer__analysis-list-item {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.5px;
+}
+.footer__about-list {
+  list-style: none;
+  padding: 0;
+}
+.footer__about-list-item {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.94px;
+}
+.footer__contact {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.94px;
 }/*# sourceMappingURL=main-style.min.css.map */
