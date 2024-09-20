@@ -147,7 +147,7 @@
 }
 .Advantage__block-img {
   position: absolute;
-  left: -100px;
+  left: -105px;
 }
 .Advantage__block-link {
   background: rgba(178, 20, 20, 0.4);
@@ -218,6 +218,7 @@
   line-height: 43.5px;
   letter-spacing: 0.01em;
   text-align: left;
+  padding-bottom: 100px;
 }
 .agency__desc-link {
   padding: 16px;
@@ -306,4 +307,81 @@
   position: absolute;
   bottom: -25px;
   left: -90px;
+}
+
+.promote {
+  width: 100%;
+  margin-top: 550px;
+}
+.promote__container {
+  position: relative;
+  align-items: center;
+}
+.promote__right {
+  max-width: 700px;
+}
+.promote__right-title {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 72.5px;
+  letter-spacing: 0.01em;
+}
+.promote__right-text {
+  padding-top: 40px;
+  padding-bottom: 65px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 43.5px;
+}
+.promote__right-link {
+  padding: 16px;
+  border-radius: 30px;
+  background-color: red;
+}
+.promote__scroll {
+  position: absolute;
+  bottom: -25px;
+  left: -90px;
+}
+
+.range {
+  margin-top: 550px;
+  width: 100%;
+}
+.range__container {
+  position: relative;
+}
+.range__info {
+  gap: 4px;
+  padding: 20px 0px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  display: flex;
+  justify-content: space-between;
+}
+.range__info-right {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.range__info:hover {
+  border-color: red;
+  color: red;
+}
+.range__scroll {
+  position: absolute;
+  top: 0;
+  left: -90px;
+}
+.range__kitchen {
+  position: absolute;
+  top: -35px;
+  left: 470px;
+}
+.range__link {
+  margin-top: 60px;
+  padding: 16px;
+  background-color: red;
+  border-radius: 30px;
+  display: inline-block;
 }/*# sourceMappingURL=main-style.min.css.map */
