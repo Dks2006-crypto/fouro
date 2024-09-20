@@ -125,4 +125,8 @@
   position: absolute;
   top: 165px;
   left: 105px;
+}
+.welcome__mouse {
+  position: absolute;
+  right: 50%;
 }/*# sourceMappingURL=main-style.min.css.map */
