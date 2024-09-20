@@ -191,4 +191,119 @@
   margin: 0;
   padding: 0;
   max-width: 600px;
+}
+
+.agency {
+  width: 100%;
+  margin-top: 550px;
+}
+.agency__desc {
+  max-width: 850px;
+  position: relative;
+}
+.agency__desc-title {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 72.5px;
+  text-align: left;
+  padding-bottom: 55px;
+}
+.agency__desc-title--active {
+  color: red;
+}
+.agency__desc-text {
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 43.5px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+.agency__desc-link {
+  padding: 16px;
+  border-radius: 30px;
+  background-color: red;
+}
+.agency__scroll {
+  position: absolute;
+  top: 0;
+  left: -105px;
+}
+
+.develop {
+  width: 100%;
+  margin-top: 550px;
+}
+.develop__container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+}
+.develop__right {
+  max-width: 700px;
+}
+.develop__right-title {
+  font-family: Montserrat;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 72.5px;
+  letter-spacing: 0.01em;
+}
+.develop__right-text {
+  padding-top: 40px;
+  padding-bottom: 65px;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 43.5px;
+}
+.develop__right-link {
+  padding: 16px;
+  border-radius: 30px;
+  background-color: red;
+}
+.develop__scroll {
+  position: absolute;
+  bottom: 0;
+  left: -90px;
+}
+
+.audit {
+  width: 100%;
+  margin-top: 550px;
+}
+.audit__container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+}
+.audit__right {
+  max-width: 700px;
+}
+.audit__right-title {
+  font-family: Montserrat;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 72.5px;
+  letter-spacing: 0.01em;
+}
+.audit__right-text {
+  padding-top: 40px;
+  padding-bottom: 65px;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 43.5px;
+}
+.audit__right-link {
+  padding: 16px;
+  border-radius: 30px;
+  background-color: red;
+}
+.audit__scroll {
+  position: absolute;
+  bottom: -25px;
+  left: -90px;
 }/*# sourceMappingURL=main-style.min.css.map */
