@@ -448,6 +448,9 @@
   margin-top: 75px;
   padding-top: 75px;
 }
+.connection__container {
+  position: relative;
+}
 .connection__title {
   font-size: 50px;
   font-weight: 500;
@@ -511,6 +514,11 @@
   background-image: url(/assets/image/Group\ 23.png);
   background-repeat: no-repeat;
   background-position: 7px center;
+}
+.connection__scroll {
+  position: absolute;
+  top: 0;
+  left: -90px;
 }
 
 .footer {
