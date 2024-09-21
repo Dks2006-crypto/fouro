@@ -3,6 +3,11 @@
     background-color: black;
     margin-top: 75px;
     padding-top: 75px;
+    padding-bottom: 225px;
+    background-image: url(/assets/image/Снимок\ экрана\ 2021-09-03\ в\ 11.22\ 1.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 700px;
     &__container{
         position: relative;
     }
@@ -89,7 +94,7 @@
     }
     &__scroll{
         position: absolute;
-        top: 0;
+        top: -75px;
         left: -90px;
     }
 }

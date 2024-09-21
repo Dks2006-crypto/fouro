@@ -1,11 +1,13 @@
 .customer{
     width: 100%;
     margin-top: 550px;
-    position: relative;
     &__title{
     font-size: 50px;
     font-weight: 600;
     line-height: 72.5px;
+    }
+    &__cards{
+        position: relative;
     }
     &__card{
         display: grid;
@@ -15,6 +17,6 @@
     &__scroll{
         position: absolute;
         top: 0;
-        left: 125px;
+        left: -105px;
     }
 }

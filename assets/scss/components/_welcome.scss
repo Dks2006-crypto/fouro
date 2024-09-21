@@ -3,8 +3,8 @@
     padding-top: 165px;
     background: url(/assets/image/Group.png) no-repeat center center;
     height: 1200px;
-    position: relative;
     &__wrapper{
+        position: relative;
         display: flex;
         justify-content: space-between;
     }
@@ -31,8 +31,8 @@
     }
     &__scroll{
         position: absolute;
-        top: 165px;
-        left: 105px;
+        bottom: 15px;
+        left: 125px;
     }
     &__mouse{
         position: absolute;

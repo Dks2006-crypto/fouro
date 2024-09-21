@@ -1,3 +1,4 @@
+@charset "UTF-8";
 :root {
   --color-white: #fff;
   --color-black: #000;
@@ -97,9 +98,9 @@
   padding-top: 165px;
   background: url(/assets/image/Group.png) no-repeat center center;
   height: 1200px;
-  position: relative;
 }
 .welcome__wrapper {
+  position: relative;
   display: flex;
   justify-content: space-between;
 }
@@ -126,8 +127,8 @@
 }
 .welcome__scroll {
   position: absolute;
-  top: 165px;
-  left: 105px;
+  bottom: 15px;
+  left: 125px;
 }
 .welcome__mouse {
   position: absolute;
@@ -376,7 +377,7 @@
 .range__kitchen {
   position: absolute;
   top: -35px;
-  left: 470px;
+  left: 440px;
 }
 .range__link {
   margin-top: 60px;
@@ -389,12 +390,14 @@
 .customer {
   width: 100%;
   margin-top: 550px;
-  position: relative;
 }
 .customer__title {
   font-size: 50px;
   font-weight: 600;
   line-height: 72.5px;
+}
+.customer__cards {
+  position: relative;
 }
 .customer__card {
   display: grid;
@@ -404,7 +407,7 @@
 .customer__scroll {
   position: absolute;
   top: 0;
-  left: 125px;
+  left: -105px;
 }
 
 .reviews {
@@ -447,6 +450,11 @@
   background-color: black;
   margin-top: 75px;
   padding-top: 75px;
+  padding-bottom: 225px;
+  background-image: url(/assets/image/Снимок\ экрана\ 2021-09-03\ в\ 11.22\ 1.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 700px;
 }
 .connection__container {
   position: relative;
@@ -517,7 +525,7 @@
 }
 .connection__scroll {
   position: absolute;
-  top: 0;
+  top: -75px;
   left: -90px;
 }
 
