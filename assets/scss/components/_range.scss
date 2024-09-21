@@ -32,6 +32,13 @@
         position: absolute;
         top: -35px;
         left: 440px;
+        @include xxl{
+            z-index: -1;
+            width: 100%;
+            opacity: 0.5;
+            left: 0;
+            top: -150px;
+        }
     }
     &__link{
         margin-top: 60px;
@@ -39,5 +46,10 @@
         background-color: red;
         border-radius: 30px;
         display: inline-block;
+        @include xxl{
+            margin-bottom: 50px;
+            display: flex;
+            justify-content: center;
+        }
     }
 }

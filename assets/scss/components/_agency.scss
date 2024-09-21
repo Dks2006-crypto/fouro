@@ -10,7 +10,10 @@
             line-height: 72.5px;
             text-align: left;
             padding-bottom: 55px;
-
+            @include lg{
+                width: 100%;
+                text-align: center;
+            }
             &--active {
                 color: red;
             }
@@ -24,11 +27,18 @@
             letter-spacing: 0.01em;
             text-align: left;
             padding-bottom: 100px;
+            @include lg{
+                text-align: center;
+            }
         }
         &-link{
             padding: 16px;
             border-radius: 30px;
             background-color: red;
+            @include xxl{
+                display: flex;
+                justify-content: center;
+            }
         }
     }
     &__scroll{

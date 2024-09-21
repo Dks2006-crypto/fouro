@@ -59,10 +59,11 @@
         }
 
         &-comment {
-
-
             border-radius: 6px;
             padding: 22px 467px 127px 25px;
+            @include md{
+                padding: 22px 200px 127px 25px;
+            }
         }
 
         &-top {
@@ -81,6 +82,9 @@
             background-repeat: no-repeat;
             background-size: 21px;
             background-position: 4px center;
+            @include md{
+                padding: 10px 15px 10px 25px;
+            }
         }
         &-phone {
             padding: 10px 35px 10px 25px;
@@ -90,6 +94,9 @@
             background-image: url(/assets/image/Group\ 23.png);
             background-repeat: no-repeat;
             background-position: 7px center;
+            @include md{
+                padding: 10px 15px 10px 25px;
+            }
         }
     }
     &__scroll{

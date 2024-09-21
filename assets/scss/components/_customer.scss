@@ -13,6 +13,12 @@
         display: grid;
         grid-template-columns: repeat(3 ,1fr);
         padding-bottom: 100px;
+        @include lg{
+            grid-template-columns: repeat(2 ,1fr);
+        }
+        @include md{
+            grid-template-columns: repeat(1 ,1fr);
+        }
     }
     &__scroll{
         position: absolute;

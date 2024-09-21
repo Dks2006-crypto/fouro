@@ -11,28 +11,46 @@
     &__image{
         width: 450px;
         height: 430px;
+        position: absolute;
+        right: 0;
+        z-index: -1;
     }
     &__desc{
         padding-left: 120px;
+        @include md{
+            padding-left: 0;
+        }
         &-title{
             font-size: 140px;
             font-weight: 600;
             line-height: 170px;
+            @include lg{
+                font-size: 70px;
+            }
+            @include md{
+                font-size: 36px;
+            }
         }
         &-active{
             color: red;
             font-size: 95px;
+            @include md{
+                font-size: 36px;
+            }
         }
         &-text{
             font-size: 30px;
             font-weight: 400;
             max-width: 610px;
+            @include md{
+                font-size: 25px;
+            }
         }
     }
     &__scroll{
         position: absolute;
-        bottom: 15px;
-        left: 125px;
+        bottom: 0;
+        left: -105px;
     }
     &__mouse{
         position: absolute;

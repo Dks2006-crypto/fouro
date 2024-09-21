@@ -6,6 +6,9 @@
         display: flex;
         justify-content: space-between;
         align-items: start;
+        @include md{
+            flex-direction: column;
+        }
     }
 
     &__services {
