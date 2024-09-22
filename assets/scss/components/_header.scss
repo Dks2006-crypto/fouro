@@ -12,6 +12,10 @@
         display: flex;
         align-items: center;
         gap: 80px;
+        margin-right: 10px; 
+        @include xxl{
+            gap: 20px;
+        }
     }
     &__lang{
         display: flex;
@@ -21,6 +25,9 @@
         display: flex;
         gap: 150px;
         transition: all 0.3s ease-in-out;
+        @include xxl{
+            gap: 20px;
+        }
         @include md{
             position: absolute;
             gap: 20px;
@@ -50,6 +57,10 @@
         padding: 0;
         gap: 55px;
         align-items: center;
+        @include xxl{
+            gap: 15px;
+
+        }
         @include md{
             margin: 0 0 20px 0;
         }
@@ -63,12 +74,18 @@
         font-weight: 400;
         font-size: 18px;
         color: #E0E1E3;
+        @include xxl{
+            font-size: 14px;
+        }
         &--phone{
             display: flex;
             align-items: center;
             gap: 65px;
             font-weight: 600;
-            font-size: 20px;
+            font-size: 14px;
+            @include xxl{
+                gap: 20px;
+            }
             @include md{
                 justify-content: center;
                 align-items: center;
@@ -78,7 +95,7 @@
     }
     &__button{
         display: none;
-        @include xxl{
+        @include md{
             padding: 15px 21px;
             display: flex;
             align-items: center;

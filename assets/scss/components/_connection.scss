@@ -61,8 +61,12 @@
         &-comment {
             border-radius: 6px;
             padding: 22px 467px 127px 25px;
+            @include lg{
+                padding: 22px 300px 127px 25px;
+            }
             @include md{
                 padding: 22px 200px 127px 25px;
+                width: 100%;
             }
         }
 
@@ -94,6 +98,9 @@
             background-image: url(/assets/image/Group\ 23.png);
             background-repeat: no-repeat;
             background-position: 7px center;
+            @include lg{
+                padding: 10px 25px 10px 25px;
+            }
             @include md{
                 padding: 10px 15px 10px 25px;
             }

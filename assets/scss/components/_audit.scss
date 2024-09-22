@@ -48,6 +48,11 @@
             }
         }
     }
+    &__left{
+        &-cube{
+            width: 100%;
+        }
+    }
     &__scroll{
         position: absolute;
         bottom: -25px;
